@@ -689,16 +689,6 @@
               <FilePath>../touchgfx/generated/fonts/src/generatedfont.cpp</FilePath>
             </File>
             <File>
-              <FileName>image_alternate_theme_images_widgets_button_regular_height_60_medium_round_active.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_60_medium_round_active.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>image_alternate_theme_images_widgets_button_regular_height_60_medium_round_pressed.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>../touchgfx/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_60_medium_round_pressed.cpp</FilePath>
-            </File>
-            <File>
               <FileName>Kerning_verdana_10_4bpp.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/fonts/src/kerning_verdana_10_4bpp.cpp</FilePath>

@@ -3,6 +3,7 @@
     "Screens": [
       {
         "Name": "screen",
+        "CanvasBufferSize": 7200,
         "Components": [
           {
             "Type": "Box",
@@ -10,23 +11,82 @@
             "Width": 480,
             "Height": 320,
             "Color": {
-              "Red": 28,
-              "Green": 74,
-              "Blue": 99
+              "Red": 18,
+              "Green": 18,
+              "Blue": 18
             }
           },
           {
-            "Type": "ButtonWithLabel",
-            "Name": "buttonWithLabel1",
-            "X": 84,
-            "Y": 130,
-            "Width": 312,
-            "Height": 60,
-            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_60_medium_round_pressed.png",
-            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_60_medium_round_active.png",
-            "TextId": "__SingleUse_VZ3U",
-            "TextRotation": "0",
-            "Preset": "alternate_theme\\presets\\button\\regular\\height_60\\medium_round_active.json"
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "Width": 480,
+            "Height": 320,
+            "DataSeed": -1907394589,
+            "NumberOfValues": 100,
+            "MaxY": 3000.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 199,
+                  "Green": 122,
+                  "Blue": 22
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 71,
+                "Green": 73,
+                "Blue": 74
+              },
+              "Interval": 10.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 72,
+                "Green": 73,
+                "Blue": 74
+              },
+              "Interval": 300.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_UEYQ",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 300.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_LWNM",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
           }
         ],
         "Interactions": []
