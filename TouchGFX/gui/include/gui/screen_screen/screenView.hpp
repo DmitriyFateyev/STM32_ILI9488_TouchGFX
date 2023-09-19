@@ -12,6 +12,9 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 protected:
+	
+		int tickCounter;
+    void handleTickEvent();
 };
 
 #endif // SCREENVIEW_HPP
